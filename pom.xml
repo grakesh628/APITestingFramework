@@ -5,10 +5,10 @@
 	<groupId>com.w2a</groupId>
 	<artifactId>APITestingFramework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
+
 	<properties>
-	     <maven.compiler.source>1.8</maven.compiler.source>
-	     <maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 	<build>
 		<plugins>
@@ -23,7 +23,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-</build>
+	</build>
 	<dependencies>
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -50,7 +50,7 @@
 			<artifactId>xml-path</artifactId>
 			<version>3.1.0</version>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/org.json/json -->
 		<dependency>
 			<groupId>org.json</groupId>
@@ -83,5 +83,13 @@
 			<artifactId>poi-ooxml</artifactId>
 			<version>3.6</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4.7</version>
+		</dependency>
+
 	</dependencies>
 </project>
